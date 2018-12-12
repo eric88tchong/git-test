@@ -3,3 +3,50 @@ Initialized empty Git repository in /Users/Eric/Desktop/TestDirectory/.git/
 ]0;~/Desktop/TestDirectoryd-172-27-104-90:TestDirectory Eric$ gitt[K.add --all
 bash: git.add: command not found
 ]0;~/Desktop/TestDirectoryd-172-27-104-90:TestDirectory Eric$ gita[K add --all
+]0;~/Desktop/TestDirectoryd-172-27-104-90:TestDirectory Eric$ git comit - [Km[C[1@m[C[C[C[C[C[C Fir t committ[K
+error: pathspec 'commit' did not match any file(s) known to git.
+]0;~/Desktop/TestDirectoryd-172-27-104-90:TestDirectory Eric$ git commit -m ""[Kfi rst commit"
+[master (root-commit) b73af87] first commit
+ 12 files changed, 135 insertions(+)
+ create mode 100644 .Rproj.user/A912C98D/console06/8DE6FC1A
+ create mode 100644 .Rproj.user/A912C98D/console06/8DE6FC1A.env
+ create mode 100644 .Rproj.user/A912C98D/console06/INDEX001
+ create mode 100644 .Rproj.user/A912C98D/sources/prop/AF9D650C
+ create mode 100644 .Rproj.user/A912C98D/sources/prop/INDEX
+ create mode 100644 .Rproj.user/A912C98D/sources/s-51F014E/5ECCC285
+ create mode 100644 .Rproj.user/A912C98D/sources/s-51F014E/5ECCC285-contents
+ create mode 100644 .Rproj.user/A912C98D/sources/s-51F014E/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 Main.R
+ create mode 100644 TestDirectory.Rproj
+]0;~/Desktop/TestDirectoryd-172-27-104-90:TestDirectory Eric$ git remote add or igin git@github.com:eric88tchong/git-test.git
+]0;~/Desktop/TestDirectoryd-172-27-104-90:TestDirectory Eric$ git pish -u origi n master
+git: 'pish' is not a git command. See 'git --help'.
+
+The most similar command is
+	push
+]0;~/Desktop/TestDirectoryd-172-27-104-90:TestDirectory Eric$ push -u origin ma ster
+bash: push: command not found
+]0;~/Desktop/TestDirectoryd-172-27-104-90:TestDirectory Eric$ git push -u origi n master
+Enter passphrase for key '/Users/Eric/.ssh/id_rsa': 
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/Desktop/TestDirectoryd-172-27-104-90:TestDirectory Eric$ git push -u origi n master
+Enter passphrase for key '/Users/Eric/.ssh/id_rsa': 
+Counting objects: 20, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/17)   Compressing objects:  11% (2/17)   Compressing objects:  17% (3/17)   Compressing objects:  23% (4/17)   Compressing objects:  29% (5/17)   Compressing objects:  35% (6/17)   Compressing objects:  41% (7/17)   Compressing objects:  47% (8/17)   Compressing objects:  52% (9/17)   Compressing objects:  58% (10/17)   Compressing objects:  64% (11/17)   Compressing objects:  70% (12/17)   Compressing objects:  76% (13/17)   Compressing objects:  82% (14/17)   Compressing objects:  88% (15/17)   Compressing objects:  94% (16/17)   Compressing objects: 100% (17/17)   Compressing objects: 100% (17/17), done.
+Writing objects:   5% (1/20)   Writing objects:  10% (2/20)   Writing objects:  15% (3/20)   Writing objects:  20% (4/20)   Writing objects:  25% (5/20)   Writing objects:  30% (6/20)   Writing objects:  35% (7/20)   Writing objects:  40% (8/20)   Writing objects:  45% (9/20)   Writing objects:  50% (10/20)   Writing objects:  55% (11/20)   Writing objects:  60% (12/20)   Writing objects:  65% (13/20)   Writing objects:  70% (14/20)   Writing objects:  75% (15/20)   Writing objects:  80% (16/20)   Writing objects:  85% (17/20)   Writing objects:  90% (18/20)   Writing objects:  95% (19/20)   Writing objects: 100% (20/20)   Writing objects: 100% (20/20), 3.42 KiB | 194.00 KiB/s, done.
+Total 20 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/eric88tchong/git-test/pull/new/master[K
+remote: 
+To github.com:eric88tchong/git-test.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+git add[K[K[K[K add --all
