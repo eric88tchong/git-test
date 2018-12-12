@@ -9,3 +9,5 @@ lm.D90 <- lm(weight ~ group - 1) # omitting intercept
 
 anova(lm.D9)
 summary(lm.D90)
+
+message("Hi! This is my second test")
