@@ -1,0 +1,5 @@
+]0;~/Desktop/TestDirectory[?1034hd-172-27-104-90:TestDirectory Eric$ [Kd-172-27-104-90:TestDirectory Eric$ git int[Kit
+Initialized empty Git repository in /Users/Eric/Desktop/TestDirectory/.git/
+]0;~/Desktop/TestDirectoryd-172-27-104-90:TestDirectory Eric$ gitt[K.add --all
+bash: git.add: command not found
+]0;~/Desktop/TestDirectoryd-172-27-104-90:TestDirectory Eric$ gita[K add --all
